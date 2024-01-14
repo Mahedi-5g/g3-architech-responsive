@@ -71,12 +71,38 @@ nav>h3 {
     margin: 0 200px 22px;
 }
 
-.banner-image {
-    height: 550px;
-    width: 950px;
-}
+
 
 .banner-image>img {
     height: 100%;
     width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    .banner-description {
+        margin: 0;
+    }
+    nav>ul{
+        flex-direction: row;
+        margin:0 ;
+        gap: 2px;
+    }
+
+}
+
+@media only screen and (min-width :576px) and ( max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    .banner-description {
+        margin: 0;
+    }
+    nav>ul{
+        flex-direction: row;
+        margin:0 ;
+        gap: 2px;
+    }
 }
